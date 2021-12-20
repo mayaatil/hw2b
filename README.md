@@ -2,7 +2,7 @@
 
 ## Description
 
-The portfolio contains finished projects, and those that are in the making. The portfolio itself is very user friendly in terms of accessibility, and it contains easy navigation to optimize the experience the user.
+The portfolio contains finished projects, and those that are in the making. The portfolio itself is very user friendly in terms of accessibility, and it contains easy navigation to optimize the user's experience.
 
 ## Screenshot
 
