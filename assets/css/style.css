@@ -126,7 +126,7 @@ header nav ul li {
   text-align: justify;
 }
 
-/* PROJECT CLICKABLES */
+/* WORK CLICKABLES */
 .square1 {
   color: white;
   border-style: solid;
@@ -155,6 +155,11 @@ header nav ul li {
   width: 1000px;
 }
 
+section nav a p:hover {
+  background-color: rgb(207, 96, 115);
+  transform: translateY(5px);
+}
+
 /* CONTACT ME */
 section nav ul {
   color: #ffffff;
@@ -165,6 +170,7 @@ section nav ul {
   padding-top: 350px;
   text-align: justify;
 }
+
 section nav ul li {
   display: inline-block;
   margin-left: 25px;
