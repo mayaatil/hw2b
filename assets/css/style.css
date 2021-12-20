@@ -3,6 +3,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 a {
   color: white;
   border-bottom: solid;
-  border-color: pink;
+  border-color: white;
   text-decoration: none;
 }
 
@@ -22,8 +24,6 @@ a {
 header {
   color: white;
   background-color: rgb(211, 135, 148);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   padding: 20px;
 }
 
@@ -44,8 +44,6 @@ header h1 {
 header nav {
   float: right;
   font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   margin-right: 20px;
   padding-top: 15px;
   text-align: center;
@@ -62,12 +60,12 @@ header nav ul li {
 
 /* IMAGES */
 .placeholderimg {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/placeholder-images-image_large.png");
-  background-size: cover;
+  background-image: url("../images/maya.jpg");
+  background-size: contain;
   background-position: center;
+  height: 800px;
+  margin-bottom: 40px;
+  width: 100%;
 }
 
 /* ASIDE BORDER*/
@@ -82,106 +80,101 @@ header nav ul li {
 
 /* ASIDE TEXT */
 .aboutme-aside-text {
-  text-align: right;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   color: white;
   float: left;
   height: 100%;
   margin-right: 20px;
   margin-left: 40px;
   padding: 30px;
+  text-align: right;
   width: 15%;
 }
 
 .work-aside-text {
-  text-align: right;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   color: white;
   float: left;
+  font-size: 25px;
   height: 100%;
   margin-right: 20px;
   margin-left: 40px;
+  margin-top: 60px;
   padding: 30px;
   width: 15%;
-  font-size: 25px;
+  text-align: right;
 }
 
 .contactme-aside-text {
-  text-align: right;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   color: white;
   float: left;
-  height: 100%;
-  margin-right: 20px;
-  margin-left: 40px;
-  padding: 30px;
-  width: 15%;
   font-size: 22px;
-}
-
-.resume-aside-text {
-  text-align: right;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: white;
-  float: left;
   height: 100%;
   margin-right: 20px;
   margin-left: 40px;
+  margin-top: 60px;
   padding: 30px;
+  text-align: right;
   width: 15%;
-  font-size: 25px;
 }
 
-/* SUMMARIES */
+/* SUMMARY TEXT */
 .aboutme-summary {
+  color: #ffffff;
+  height: 20px;
+  inline-size: 1500px;
+  margin-left: 350px;
   padding-top: 30px;
-  height: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #ffffff;
   text-align: justify;
-  inline-size: 1500px;
-  margin-left: 350px;
 }
 
-.work-summary {
-  padding-top: 100px;
-  height: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #ffffff;
-  text-align: justify;
-  inline-size: 1500px;
-  margin-left: 350px;
+/* PROJECT CLICKABLES */
+.square1 {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  background-color: rgb(211, 135, 148);
+  float: right;
+  height: 0;
+  margin-top: 150px;
+  margin-right: 200px;
+  padding-top: 110px;
+  text-align: center;
+  width: 300px;
 }
 
-.contactme-summary {
-  padding-top: 100px;
-  height: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #ffffff;
-  text-align: justify;
-  inline-size: 1500px;
-  margin-left: 350px;
+.square2 {
+  color: white;
+  background-color: rgb(211, 135, 148);
+  border-style: solid;
+  border-color: white;
+  float: left;
+  height: 0;
+  margin-left: 300px;
+  margin-top: 150px;
+  padding-top: 110px;
+  text-align: center;
+  width: 1000px;
 }
 
-.resume-summary {
-  padding-top: 100px;
-  height: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+/* CONTACT ME */
+section nav ul {
   color: #ffffff;
-  text-align: justify;
+  height: 20px;
   inline-size: 1500px;
-  margin-left: 350px;
+  list-style-type: none;
+  margin-left: 320px;
+  padding-top: 350px;
+  text-align: justify;
+}
+section nav ul li {
+  display: inline-block;
+  margin-left: 25px;
 }
 
 /* FOOTER */
 footer {
-  padding: 30px;
   clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: rgb(211, 135, 148);
+  margin-top: 100px;
+  padding: 100px;
   text-align: center;
 }
